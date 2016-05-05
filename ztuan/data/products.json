@@ -1,0 +1,79 @@
+{
+    "chanpinjieshao": [{
+        "url": "images/1.jpg"
+    }, {
+        "url": "images/2.jpg"
+    }, {
+        "url": "images/3.jpg"
+    }, {
+        "url": "images/4.jpg"
+    }, {
+        "url": "images/5.jpg"
+    }, {
+        "url": "images/6.gif"
+    }, {
+        "url": "images/7.jpg"
+    }, {
+        "url": "images/8.jpg"
+    }, {
+        "url": "images/9.jpg"
+    }, {
+        "url": "images/10.jpg"
+    }, {
+        "url": "images/11.jpg"
+    }, {
+        "url": "images/12.jpg"
+    }, {
+        "url": "images/tishi.jpg"
+    }],
+    "dianpuremai": [{
+        "url": "images/side1.jpg",
+        "title": "创意节能小夜灯！led光控感应，插座插电小夜灯，婴儿喂奶起夜，床头卧室灯！",
+        "price": "¥10",
+        "sale": "953"
+    }, {
+        "url": "images/side2.jpg",
+        "title": "卡佐AZZOR 牧马人二代游戏鼠标！手感出色，七色炫幻变光，笔记本电脑 CF LOL 电竞鼠标！",
+        "price": "¥32",
+        "sale": "4882"
+    }, {
+        "url": "images/side3.jpg",
+        "title": "声波式电动牙刷！自动牙刷，送刷头，美白防水，电池款！有效解决各种口腔问题，杀菌消毒，去除口腔异味，享受美白牙齿体验！",
+        "price": "¥100",
+        "sale": "73"
+    }],
+    "tuijian": [{
+        "url": "images/tuan-list1.jpg",
+        "title": "智能按摩披肩 多种力度调节 缓解酸痛 送礼更送健康",
+        "price": "¥69",
+        "del": "199",
+        "sale": "45"
+    }, {
+        "url": "images/tuan-list2.jpg",
+        "title": "LED可折叠护眼灯 5档调光 3档调色 光线自然更护眼 办公利器！",
+        "price": "¥99",
+        "del": "384",
+        "sale": "3643"
+    }, {
+        "url": "images/tuan-list3.jpg",
+        "title": "飞科电动剃须刀FS359 限量低价 3D质感浮动 可全身水洗",
+        "price": "¥194",
+        "del": "235",
+        "sale": "73"
+    }, {
+        "url": "images/tuan-list4.jpg",
+        "title": "健康人体电子秤 测量准确 红色LED显示 随时关注体重变化",
+        "price": "¥36",
+        "del": "194",
+        "sale": "83"
+    }],
+    "products": [{
+        "url": "images/products.jpg",
+        "title": "清凉一夏！迷你USB小风扇！办公室利器！",
+        "introduce": "夏季迷你USB小风扇4寸！仅售22元！全方位旋转，想怎么吹就怎么吹！静音设计，全身喷漆防生锈！",
+        "price": "22",
+        "originalPrice": "¥39",
+        "discount": "5.6折",
+        "sale": "17"
+    }]
+}

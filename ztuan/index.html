@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Z团热门团购活动大全-Z团-ZOL商城</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/pagination.css">
+    <link rel="stylesheet" href="css/public.css">
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/jquery.cookie.js"></script>
+    <script src="js/jquery.pagination.js"></script>
+    <script src="js/index.js"></script>
+</head>
+
+<body>
+    <div class="header"></div>
+    <div class="main">
+        <div class="main-nav">
+            <dl>
+                <dt>数码精品：</dt>
+                <dd>
+                    <a href="">全部</a>
+                    <a href="">手机通讯<em>29</em></a>
+                    <a href="">影像/智能数码<em>16</em></a>
+                    <a href="">笔记本电脑<em>16</em></a>
+                    <a href="">电脑外设<em>12</em></a>
+                    <a href="">DIY主机/配件<em>12</em></a>
+                    <a href="">家电/其他<em>23</em></a>
+                </dd>
+            </dl>
+            <dl class="sort">
+                <dt>排序方式：</dt>
+                <dd>
+                    <a href="" class="current"><span class="default">默认</span></a>
+                    <a href=""><span class="pl">最新团购</span></a>
+                    <a href=""><span class="pl">销量最高</span></a>
+                    <a href=""><span class="pl">关注度最高</span></a>
+                </dd>
+
+            </dl>
+        </div>
+        <div class="main-left">
+           <ul class="goods-list clearfix">
+            </ul>
+            <!--
+            <ul class="goods-list">
+                <li>
+                    <a href="" class="pic">
+                        <img src="images/goods1.jpg" alt="">
+                        <span class="title">奔腾 PS007 男士电动剃须刀，高端面容护理 ！独立浮动3刀头!</span>
+                        <span class="desc">独立浮动3刀头，全身水洗，高速马达，充电指示灯，智能防夹须系统</span>
+                    </a>
+                    <div class="price">
+                        <span class="real-price">¥<em>99</em></span>
+                        <del>￥199</del>
+                        <span class="discount">5.0折</span>
+                    </div>
+                    <div class="day">
+                        <span class="countdown">剩余：1天08时12分47秒</span>
+                        <span class="attention">2958人关注</span>
+                    </div>
+                </li>
+                <li>
+                    <a href="" class="pic">
+                        <img src="images/goods2.jpg" alt="">
+                        <span class="title">奔腾 PS007 男士电动剃须刀，高端面容护理 ！独立浮动3刀头!</span>
+                        <span class="desc">独立浮动3刀头，全身水洗，高速马达，充电指示灯，智能防夹须系统</span>
+                    </a>
+                    <div class="price">
+                        <span class="real-price">¥<em>99</em></span>
+                        <del>￥199</del>
+                        <span class="discount">5.0折</span>
+                    </div>
+                    <div class="day">
+                        <span class="countdown">剩余：1天08时12分47秒</span>
+                        <span class="attention">2958人关注</span>
+                    </div>
+                </li>
+                <li>
+                    <a href="" class="pic">
+                        <img src="images/goods3.jpg" alt="">
+                        <span class="title">奔腾 PS007 男士电动剃须刀，高端面容护理 ！独立浮动3刀头!</span>
+                        <span class="desc">独立浮动3刀头，全身水洗，高速马达，充电指示灯，智能防夹须系统</span>
+                    </a>
+                    <div class="price">
+                        <span class="real-price">¥<em>99</em></span>
+                        <del>￥199</del>
+                        <span class="discount">5.0折</span>
+                    </div>
+                    <div class="day">
+                        <span class="countdown">剩余：1天08时12分47秒</span>
+                        <span class="attention">2958人关注</span>
+                    </div>
+                </li>
+                <li>
+                    <a href="" class="pic">
+                        <img src="images/goods4.jpg" alt="">
+                        <span class="title">奔腾 PS007 男士电动剃须刀，高端面容护理 ！独立浮动3刀头!</span>
+                        <span class="desc">独立浮动3刀头，全身水洗，高速马达，充电指示灯，智能防夹须系统</span>
+                    </a>
+                    <div class="price">
+                        <span class="real-price">¥<em>99</em></span>
+                        <del>￥199</del>
+                        <span class="discount">5.0折</span>
+                    </div>
+                    <div class="day">
+                        <span class="countdown">剩余：1天08时12分47秒</span>
+                        <span class="attention">2958人关注</span>
+                    </div>
+                </li>
+                <li>
+                    <a href="" class="pic">
+                        <img src="images/goods5.jpg" alt="">
+                        <span class="title">奔腾 PS007 男士电动剃须刀，高端面容护理 ！独立浮动3刀头!</span>
+                        <span class="desc">独立浮动3刀头，全身水洗，高速马达，充电指示灯，智能防夹须系统</span>
+                    </a>
+                    <div class="price">
+                        <span class="real-price">¥<em>99</em></span>
+                        <del>￥199</del>
+                        <span class="discount">5.0折</span>
+                    </div>
+                    <div class="day">
+                        <span class="countdown">剩余：1天08时12分47秒</span>
+                        <span class="attention">2958人关注</span>
+                    </div>
+                </li>
+                <li>
+                    <a href="" class="pic">
+                        <img src="images/goods6.jpg" alt="">
+                        <span class="title">奔腾 PS007 男士电动剃须刀，高端面容护理 ！独立浮动3刀头!</span>
+                        <span class="desc">独立浮动3刀头，全身水洗，高速马达，充电指示灯，智能防夹须系统</span>
+                    </a>
+                    <div class="price">
+                        <span class="real-price">¥<em>99</em></span>
+                        <del>￥199</del>
+                        <span class="discount">5.0折</span>
+                    </div>
+                    <div class="day">
+                        <span class="countdown">剩余：1天08时12分47秒</span>
+                        <span class="attention">2958人关注</span>
+                    </div>
+                </li>
+                <li>
+                    <a href="" class="pic">
+                        <img src="images/goods7.jpg" alt="">
+                        <span class="title">奔腾 PS007 男士电动剃须刀，高端面容护理 ！独立浮动3刀头!</span>
+                        <span class="desc">独立浮动3刀头，全身水洗，高速马达，充电指示灯，智能防夹须系统</span>
+                    </a>
+                    <div class="price">
+                        <span class="real-price">¥<em>99</em></span>
+                        <del>￥199</del>
+                        <span class="discount">5.0折</span>
+                    </div>
+                    <div class="day">
+                        <span class="countdown">剩余：1天08时12分47秒</span>
+                        <span class="attention">2958人关注</span>
+                    </div>
+                </li>
+                <li>
+                    <a href="" class="pic">
+                        <img src="images/goods8.jpg" alt="">
+                        <span class="title">奔腾 PS007 男士电动剃须刀，高端面容护理 ！独立浮动3刀头!</span>
+                        <span class="desc">独立浮动3刀头，全身水洗，高速马达，充电指示灯，智能防夹须系统</span>
+                    </a>
+                    <div class="price">
+                        <span class="real-price">¥<em>99</em></span>
+                        <del>￥199</del>
+                        <span class="discount">5.0折</span>
+                    </div>
+                    <div class="day">
+                        <span class="countdown">剩余：1天08时12分47秒</span>
+                        <span class="attention">2958人关注</span>
+                    </div>
+                </li>
+                <li>
+                    <a href="" class="pic">
+                        <img src="images/goods9.jpg" alt="">
+                        <span class="title">奔腾 PS007 男士电动剃须刀，高端面容护理 ！独立浮动3刀头!</span>
+                        <span class="desc">独立浮动3刀头，全身水洗，高速马达，充电指示灯，智能防夹须系统</span>
+                    </a>
+                    <div class="price">
+                        <span class="real-price">¥<em>99</em></span>
+                        <del>￥199</del>
+                        <span class="discount">5.0折</span>
+                    </div>
+                    <div class="day">
+                        <span class="countdown">剩余：1天08时12分47秒</span>
+                        <span class="attention">2958人关注</span>
+                    </div>
+                </li>
+                <li>
+                    <a href="" class="pic">
+                        <img src="images/goods10.jpg" alt="">
+                        <span class="title">奔腾 PS007 男士电动剃须刀，高端面容护理 ！独立浮动3刀头!</span>
+                        <span class="desc">独立浮动3刀头，全身水洗，高速马达，充电指示灯，智能防夹须系统</span>
+                    </a>
+                    <div class="price">
+                        <span class="real-price">¥<em>99</em></span>
+                        <del>￥199</del>
+                        <span class="discount">5.0折</span>
+                    </div>
+                    <div class="day">
+                        <span class="countdown">剩余：1天08时12分47秒</span>
+                        <span class="attention">2958人关注</span>
+                    </div>
+                </li>
+                <li>
+                    <a href="" class="pic">
+                        <img src="images/goods11.jpg" alt="">
+                        <span class="title">奔腾 PS007 男士电动剃须刀，高端面容护理 ！独立浮动3刀头!</span>
+                        <span class="desc">独立浮动3刀头，全身水洗，高速马达，充电指示灯，智能防夹须系统</span>
+                    </a>
+                    <div class="price">
+                        <span class="real-price">¥<em>99</em></span>
+                        <del>￥199</del>
+                        <span class="discount">5.0折</span>
+                    </div>
+                    <div class="day">
+                        <span class="countdown">剩余：1天08时12分47秒</span>
+                        <span class="attention">2958人关注</span>
+                    </div>
+                </li>
+                <li>
+                    <a href="" class="pic">
+                        <img src="images/goods12.jpg" alt="">
+                        <span class="title">奔腾 PS007 男士电动剃须刀，高端面容护理 ！独立浮动3刀头!</span>
+                        <span class="desc">独立浮动3刀头，全身水洗，高速马达，充电指示灯，智能防夹须系统</span>
+                    </a>
+                    <div class="price">
+                        <span class="real-price">¥<em>99</em></span>
+                        <del>￥199</del>
+                        <span class="discount">5.0折</span>
+                    </div>
+                    <div class="day">
+                        <span class="countdown">剩余：1天08时12分47秒</span>
+                        <span class="attention">2958人关注</span>
+                    </div>
+                </li>
+                <li>
+                    <a href="" class="pic">
+                        <img src="images/goods13.jpg" alt="">
+                        <span class="title">奔腾 PS007 男士电动剃须刀，高端面容护理 ！独立浮动3刀头!</span>
+                        <span class="desc">独立浮动3刀头，全身水洗，高速马达，充电指示灯，智能防夹须系统</span>
+                    </a>
+                    <div class="price">
+                        <span class="real-price">¥<em>99</em></span>
+                        <del>￥199</del>
+                        <span class="discount">5.0折</span>
+                    </div>
+                    <div class="day">
+                        <span class="countdown">剩余：1天08时12分47秒</span>
+                        <span class="attention">2958人关注</span>
+                    </div>
+                </li>
+                <li>
+                    <a href="" class="pic">
+                        <img src="images/goods14.jpg" alt="">
+                        <span class="title">奔腾 PS007 男士电动剃须刀，高端面容护理 ！独立浮动3刀头!</span>
+                        <span class="desc">独立浮动3刀头，全身水洗，高速马达，充电指示灯，智能防夹须系统</span>
+                    </a>
+                    <div class="price">
+                        <span class="real-price">¥<em>99</em></span>
+                        <del>￥199</del>
+                        <span class="discount">5.0折</span>
+                    </div>
+                    <div class="day">
+                        <span class="countdown">剩余：1天08时12分47秒</span>
+                        <span class="attention">2958人关注</span>
+                    </div>
+                </li>
+                <li>
+                    <a href="" class="pic">
+                        <img src="images/goods15.jpg" alt="">
+                        <span class="title">奔腾 PS007 男士电动剃须刀，高端面容护理 ！独立浮动3刀头!</span>
+                        <span class="desc">独立浮动3刀头，全身水洗，高速马达，充电指示灯，智能防夹须系统</span>
+                    </a>
+                    <div class="price">
+                        <span class="real-price">¥<em>99</em></span>
+                        <del>￥199</del>
+                        <span class="discount">5.0折</span>
+                    </div>
+                    <div class="day">
+                        <span class="countdown">剩余：1天08时12分47秒</span>
+                        <span class="attention">2958人关注</span>
+                    </div>
+                </li>
+                <li>
+                    <a href="" class="pic">
+                        <img src="images/goods16.jpg" alt="">
+                        <span class="title">奔腾 PS007 男士电动剃须刀，高端面容护理 ！独立浮动3刀头!</span>
+                        <span class="desc">独立浮动3刀头，全身水洗，高速马达，充电指示灯，智能防夹须系统</span>
+                    </a>
+                    <div class="price">
+                        <span class="real-price">¥<em>99</em></span>
+                        <del>￥199</del>
+                        <span class="discount">5.0折</span>
+                    </div>
+                    <div class="day">
+                        <span class="countdown">剩余：1天08时12分47秒</span>
+                        <span class="attention">2958人关注</span>
+                    </div>
+                </li>
+                <li>
+                    <a href="" class="pic">
+                        <img src="images/goods17.jpg" alt="">
+                        <span class="title">奔腾 PS007 男士电动剃须刀，高端面容护理 ！独立浮动3刀头!</span>
+                        <span class="desc">独立浮动3刀头，全身水洗，高速马达，充电指示灯，智能防夹须系统</span>
+                    </a>
+                    <div class="price">
+                        <span class="real-price">¥<em>99</em></span>
+                        <del>￥199</del>
+                        <span class="discount">5.0折</span>
+                    </div>
+                    <div class="day">
+                        <span class="countdown">剩余：1天08时12分47秒</span>
+                        <span class="attention">2958人关注</span>
+                    </div>
+                </li>
+                <li>
+                    <a href="" class="pic">
+                        <img src="images/goods18.jpg" alt="">
+                        <span class="title">奔腾 PS007 男士电动剃须刀，高端面容护理 ！独立浮动3刀头!</span>
+                        <span class="desc">独立浮动3刀头，全身水洗，高速马达，充电指示灯，智能防夹须系统</span>
+                    </a>
+                    <div class="price">
+                        <span class="real-price">¥<em>99</em></span>
+                        <del>￥199</del>
+                        <span class="discount">5.0折</span>
+                    </div>
+                    <div class="day">
+                        <span class="countdown">剩余：1天08时12分47秒</span>
+                        <span class="attention">2958人关注</span>
+                    </div>
+                </li>
+                <li>
+                    <a href="" class="pic">
+                        <img src="images/goods19.jpg" alt="">
+                        <span class="title">奔腾 PS007 男士电动剃须刀，高端面容护理 ！独立浮动3刀头!</span>
+                        <span class="desc">独立浮动3刀头，全身水洗，高速马达，充电指示灯，智能防夹须系统</span>
+                    </a>
+                    <div class="price">
+                        <span class="real-price">¥<em>99</em></span>
+                        <del>￥199</del>
+                        <span class="discount">5.0折</span>
+                    </div>
+                    <div class="day">
+                        <span class="countdown">剩余：1天08时12分47秒</span>
+                        <span class="attention">2958人关注</span>
+                    </div>
+                </li>
+                <li>
+                    <a href="" class="pic">
+                        <img src="images/goods20.jpg" alt="">
+                        <span class="title">奔腾 PS007 男士电动剃须刀，高端面容护理 ！独立浮动3刀头!</span>
+                        <span class="desc">独立浮动3刀头，全身水洗，高速马达，充电指示灯，智能防夹须系统</span>
+                    </a>
+                    <div class="price">
+                        <span class="real-price">¥<em>99</em></span>
+                        <del>￥199</del>
+                        <span class="discount">5.0折</span>
+                    </div>
+                    <div class="day">
+                        <span class="countdown">剩余：1天08时12分47秒</span>
+                        <span class="attention">2958人关注</span>
+                    </div>
+                </li>
+            </ul>
+-->
+            <!--------分页-------->
+            <div id="Pagination" class="pagination">
+
+            </div>
+        </div>
+        <div class="main-right">
+            <!--轮播图-->
+            <div class="lbt">
+                <ul>
+                    <li style="z-index:1;">
+                        <a href=""><img src="images/lbt1.jpg" alt=""></a>
+                    </li>
+                    <li>
+                        <a href=""><img src="images/lbt2.jpg" alt=""></a>
+                    </li>
+                    <li>
+                        <a href=""><img src="images/lbt3.jpg" alt=""></a>
+                    </li>
+                </ul>
+                <ol>
+                    <li class="active">1</li>
+                    <li>2</li>
+                    <li>3</li>
+                </ol>
+            </div>
+            <!--热门专题-->
+            <div class="rmzt">
+                <div class="rmzt-title">
+                    <h2>热门专题</h2>
+                </div>
+                <ul class="rmzt-list">
+                    <li>
+                        <a href=""><img src="images/rmzt1.jpg" alt=""></a>
+                    </li>
+                    <li>
+                        <a href=""><img src="images/rmzt2.jpg" alt=""></a>
+                    </li>
+                    <li>
+                        <a href=""><img src="images/rmzt3.jpg" alt=""></a>
+                    </li>
+                </ul>
+            </div>
+            <!--z团答疑-->
+            <div class="ztdy">
+                <div class="ztdy-title">
+                    <h2>Z团答疑</h2>
+                </div>
+                <ul class="ztdy-list">
+                    <li><a href="">我参加的团购乐视2 50元优惠券 明明是送手机壳 和保护膜 为什么只有膜没有壳呢</a></li>
+                    <li><a href="">第二波的魅蓝note3预约都已经开始了，然而第一波预约的却还没发售，等到花儿都谢了。</a></li>
+                    <li><a href="">乐视 新品 0元预约 享50元优惠券 什么意思</a></li>
+                </ul>
+                <div class="ztdy-more"><a href="">查看全部(14935)</a></div>
+            </div>
+            <!--大家在看什么-->
+            <div class="djzk" id="djzk">
+                <div class="djzk-title">
+                    <h2>大家在看什么</h2>
+                </div>
+                <ul class="djzk-list">
+                    <li>
+                        <h3><a href="">乐视1s手机配件团！多买多优惠！ 为爱机够一套靠谱的装备！</a></h3>
+                        <a href="" class="pic"><img src="images/djzk1.jpg" alt=""></a><span class="price">¥<em>14.8</em></span><span class="browse">7216人浏览</span></li>
+                    <li>
+                        <h3><a href="">i3家用办公主机 128G固态+8G内存 Z团迎五一惊喜价</a></h3>
+                        <a href="" class="pic"><img src="images/djzk2.jpg" alt=""></a><span class="price">¥<em>1699</em></span><span class="browse">9999人浏览</span></li>
+                    <li>
+                        <h3><a href="">LG G5（全网通）现货开团！领券立减200元 再送原装电池套装！</a></h3>
+                        <a href="" class="pic"><img src="images/djzk3.jpg" alt=""></a><span class="price">¥<em>4888</em></span><span class="browse">28216人浏览</span></li>
+                </ul>
+                <div class="djzk-change"><a href="">换一批</a></div>
+            </div>
+        </div>
+    </div>
+    <div class="tab">
+        <div class="tuan">
+            <ul class="tabul">
+                <li class="tab-current">数码团购</li>
+            </ul>
+            <div class="label">
+                <a href="">手机通讯团购</a>
+                <a href="">影像/智能数码团购</a>
+                <a href="">笔记本电脑团购</a>
+                <a href="">电脑外设团购</a>
+                <a href="">DIY主机/配件团购</a>
+                <a href="">家电/其他团购</a>
+            </div>
+        </div>
+    </div>
+    <div class="footer"></div>
+</body>
+
+</html>

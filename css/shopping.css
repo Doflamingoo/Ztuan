@@ -1,0 +1,81 @@
+.clearfix:after {
+    content: ".";
+    display: block;
+    visibility: hidden;
+    clear: both;
+    height: 0;
+    font-size: 0;
+}
+.header{height:31px;}
+.top{margin:0 auto;padding:22px 0 0;width:990px;height:68px;position:relative;}
+.top .logo{display:block;float:none;margin:0;width:120px;height:46px;background:url(../images/tuan_logo_120x46.png)no-repeat;overflow:hidden;}
+.flow-step{position:absolute;top:34px;right:0;width: 483px;}
+.flow-step .flow-step-1 li{background:url(../images/public-bg.png)no-repeat;float:left;position:relative;width:161px;height:22px;}
+.flow-step .flow-step-1 .s1{background-position:0 -115px;}
+.flow-step .flow-step-1 .s2{background-position:0 -69px;}
+.flow-step .flow-step-1 .s3{background-position:0 -46px;}
+.flow-step em{position:absolute;top:0;left:50%;display:block;margin:0 0 0 -11px;width:21px;height:22px;font:14px/22px Arial;color:#fff;text-align:center;}
+.flow-step .flow-step-1 .s1 span{color:#c00;}
+.flow-step span{position:absolute;top:22px;left:0;display:block;width:161px;height: 24px;font:12px/24px Arial;text-align: center;}
+
+.wrapper{width:1000px;margin:0 auto;}
+.wrapper .container{border:1px solid #e6e6e6;}
+.wrapper .container .container-hd{padding:0 20px;background: #f8f8f8;font-size:16px;line-height: 40px;}
+.wrapper .container .step-section{padding:16px 20px 13px;border-bottom:1px solid #e6e6e6;}
+.commodity-list table{width:100%;border-collapse: collapse;}
+tbody{display: table-row-group;vertical-align: middle;border-color: inherit;}
+tr{display: table-row;vertical-align: inherit;border-color: inherit;}
+.commodity-list th{padding:8px 10px;background:#f8f8f8;font:12px/12px Arial;color:#666;}
+.commodity-list th span{display:block;}
+.commodity-list .unit-price span{border-left:1px solid #ebebeb;border-right:1px solid #ebebeb;}
+.commodity-list .suits span{border-right:1px solid #ebebeb;}
+.commodity-list .total span{border-right:1px solid #ebebeb;}
+.cart-list .goods{width:437px;}
+.cart-list .unit-price{width:120px;}
+.cart-list .suits{width:132px;}
+.cart-list .total{width:108px;}
+.cart-list .inventory{width:51px;}
+.current .goods{width:437px;}
+.commodity-list .pic{float:left;margin:0 10px 0 0;display: block;}
+.commodity-list .pic img{width:90px;height:55px;}
+.commodity-list .title{height:52px;overflow:hidden;font:12px/52px Arial;text-align: center;}
+.commodity-list .title a{color:#36c;}
+.commodity-list .title a:hover{color:#c10707;text-decoration:underline;}
+.commodity-list td{padding:10px;text-align: center;color: #666;border-bottom:1px dotted #e6e6e6;}
+.cart-list .unit-price{width:120px;}
+.cart-list .suits{width:132px;}
+.cart-list .suits .quantity{position: relative;}
+.cart-list .minus,.cart-list .plus{width:20px;height:20px;cursor: pointer;}
+.quantity .text{width:36px;height:20px;border:0;color:#666;text-align: center;display: inline-block;}
+.commodity-list .total-price{font-weight: bold;}
+.cart-list .total-price{width:108px;}
+.cart-list .inventory{width:51px;}
+.total-items{padding:15px 0 30px;}
+.total-items .price{float:right;padding:0 10px;width:81px;text-align: center;color: #666;}
+.total-items .label{float: right;padding: 0 34px 0 0;width: 813px;text-align: right;}
+.total-items .label b{padding:0 5px 0 0;color:#c00;font-weight: bold;}
+.container-foot{position:relative;margin:-1px 0 0;padding:13px 20px;height:40px;background:#f8f8f8;}
+.container-foot-inner .contact{float:left;height:40px;font:12px/40px Arial;text-overflow: ellipsis;white-space: nowrap;overflow: hidden;color:#36c;}
+.container-foot-inner .total{float:right;height:40px;overflow:hidden;font:12px/40px Arial;}
+.container-foot-inner .total strong{position:relative;top:-4px;}
+.container-foot-inner .total .price{position:relative;top:-2px;padding:0 20px 0 0;font-size:20px;color:#c00;}
+.container-foot-inner .submit{background:#e02d2d;color:#fff;cursor:pointer;float:right;width:130px;height:40px;font:18px/40px Arial;text-align: center;border:0 none;outline:none;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

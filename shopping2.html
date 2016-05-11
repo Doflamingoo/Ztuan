@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>确认商品信息页</title>
+    <link rel="stylesheet" href="css/public.css">
+    <link rel="stylesheet" href="css/shopping2.css">
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/jquery.cookie.js"></script>
+    <script src="js/shopping2.js"></script>
+</head>
+
+<body>
+    <div class="header"></div>
+    <div class="top">
+        <a href="" class="logo"></a>
+        <div class="flow-step">
+            <ul class="flow-step-1 clearfix">
+                <li class="s1">
+                    <em>1</em>
+                    <span>1.核对商品信息</span>
+                </li>
+                <li class="s2">
+                    <em>2</em>
+                    <span>2.填写核对订单信息</span>
+                </li>
+                <li class="s3">
+                    <em>3</em>
+                    <span>3.成功提交订单</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="wrapper">
+        <div class="container">
+            <div class="container-hd">填写并核对订单信息</div>
+            <div class="step-section">
+                <div class="step-title">
+                    <span>收货人信息</span>
+                </div>
+                <div class="info">
+                    <form>
+                        <dl>
+                            <dt><em class="xh">*</em>收货人：</dt>
+                            <dd><input type="text" class="text" id="shr"></dd>
+                        </dl>
+                        <dl>
+                            <dt><em class="xh">*</em>详细地址：</dt>
+                            <dd><input type="text" class="text" id="xxdz"></dd>
+                        </dl>
+                        <dl>
+                            <dt><em class="xh">*</em>手机号码：</dt>
+                            <dd><input type="text" class="text" id="sjhm"></dd>
+                        </dl>
+                        <dl>
+                            <dt><em class="xh">*</em>邮箱：</dt>
+                            <dd><input type="text" class="text" id="yx"></dd>
+                        </dl>
+                        <di>
+                            <input type="button" value="提交" id="btn">
+                        </di>
+                    </form>
+                </div>
+            </div>
+            <div class="step-section">
+                <div class="step-title">
+                    <span>配送方式</span>
+                </div>
+                <div class="step-ways">
+                    <p>快递： 免费 (发货后2-5天送达)</p>
+                </div>
+            </div>
+            <div class="step-section">
+                <div class="step-title">
+                    <span>商品清单</span>
+                </div>
+                <div class="step-content">
+                    <div class="wrap">
+                        <div class="commodity-list">
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <th class="goods"><span>商品</span></th>
+                                        <th class="unit-price"><span>单价（元）</span></th>
+                                        <th class="suits"><span>类型和数量</span></th>
+                                        <th class="total"><span>总价（元）</span></th>
+                                    </tr>
+                                    <tr>
+                                        <td class="goods">
+                                            <a href="" class="pic"><img src="images/goods1.jpg" alt="" id="goodsImg"></a>
+                                            <h3 class="title"><a href="" id="titleA">尼康 AF 50mm f/1.8D全画幅镜头 紧凑便携 Z团特惠包邮</a></h3>
+                                        </td>
+                                        <td class="unit-price">¥<span id="p">662.00</span></td>
+                                        <td class="suits"><span id="count">1</span></td>
+                                        <td class="total">¥<span id="allPrice">662.00</span></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="container-foot">
+                <div class="container-foot-inner clearfix">
+                    <p class="contact"><strong>寄送至：</strong><span id="info">请填写收货地址</span></p>
+                <input type="button" class="submit" value="提交订单" id="submit">
+                <div class="total"><strong>应付总额：</strong><span class="price" id="zongPrice">¥662</span></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer"></div>
+</body>
+
+</html>

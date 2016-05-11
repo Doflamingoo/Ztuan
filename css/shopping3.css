@@ -1,0 +1,51 @@
+.clearfix:after {
+    content: ".";
+    display: block;
+    visibility: hidden;
+    clear: both;
+    height: 0;
+    font-size: 0;
+}
+a{color:#36c;}
+.header{height:31px;}
+
+
+.top{margin:0 auto;padding:22px 0 0;width:990px;height:68px;position:relative;}
+.top .logo{display:block;float:left;margin:0;width:120px;height:46px;background:url(../images/tuan_logo_120x46.png)no-repeat;overflow:hidden;}
+.top .title{float:left;margin:0 0 0 12px;padding:0 0 0 15px;font-size:18px;line-height: 46px;border-left:1px solid #ebebeb;color: #999;}
+.wrapper{margin:0 auto;width:960px;}
+.payment-box{border:1px solid #e3e3e3;}
+.order-status-box{padding:5px 40px 5px;border-bottom:1px solid #e3e3e3;background:#fafafa;}
+.order-status{float:left;padding:11px 0 0;}
+.amount-code{float:right;position: relative;padding: 0 101px 0 0 ;height:105px;text-align: right;}
+.order-status .prompt{font:18px/26px Arial;}
+.order-status .prompt span{color:#f33;}
+.order-status .details{padding:10px 0;font:12px/24px Arial;color:#666;width:600px;}
+.amount-code .code{position:absolute;top:0;right:0;width:83px;height:102px;cursor: pointer;}
+.amount-code .price{padding:11px 0 10px;font:18px/26px Arial;}
+.amount-code .price span{color:#f33;}
+.bankpay a{float:left;background:url(../images/bankcard-bg.png)no-repeat;display:block;width:138px;height:38px;border:1px solid #eee;margin-top:10px;margin-right:5px;}
+.bankpay .gongshang{background-position: -1px -360px;}
+.bankpay a:hover{border:1px solid #f33;}
+.bankpay .nongye{background-position: -1px -520px;}
+.bankpay .zhaohang{background-position: -1px -640px;}
+.bankpay .jianhang{background-position: -1px -401px;}
+.bankpay .xingye{background-position: -1px -320px;}
+.payment-way,.bankpay{padding:20px 20px;border-bottom:1px dotted #767272;}
+.payment-way .third-pay,.bankpay .bank-pay{float:left;padding:10px 18px 11px 13px;font:18px/34px Arial;width:128px;}
+.payment-way .alipay{display: block;float: left;padding:6px 0;}
+.payment-way .tips{float: left;font:12px/55px Arial;color: #f33;padding:0 10px;}
+.payment-way .allpay{float: right;font-size:12px;padding:10px 0;}
+.payment-way .allpay em{font-style:normal;font-size:18px;color:#f33;font-weight: bold;padding:0 5px;}
+.operation{padding:20px 0 20px 20px;}
+.pay-submit-btn{float:left;width:162px;height:44px;background:#c00;border:0 none;outline: none;font:20px/44px Arial;color:#fff;text-align: center;cursor: pointer;}
+.operation span{float:left;font:12px/44px Arial;padding:0 0 0 10px;color:#767272;}
+
+
+
+
+
+
+
+
+
